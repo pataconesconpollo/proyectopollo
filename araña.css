@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    background-color: black;
+    color: pink;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar-dark {
+    background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: pink;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: pink;
+}
+
+/* Estilos del título del artículo */
+.fw-bolder {
+    color: pink;
+}
+
+/* Estilos del texto del artículo */
+.text-muted {
+    color: pink;
+}
+
+/* Estilos de los enlaces */
+a {
+    color: pink;
+    text-decoration: none;
+}
+a:hover {
+    color: lightpink;
+    text-decoration: underline;
+}
+
+/* Estilos del contenido de la página */
+.container {
+    margin-top: 50px;
+}
+
+/* Estilos para la imagen de vista previa */
+.img-fluid {
+    border: 5px solid rgb(236, 121, 140);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el cuadro de noticias */
+.card {
+    background-color: rgb(160, 75, 89);
+    color: black;
+}
+.card-header {
+    background-color: lightpink;
+    color: black;
+}
+
+/* Estilos para el widget de calendario */
+.table-bordered th,
+.table-bordered td {
+    border-color: rgb(121, 0, 20);
+}
