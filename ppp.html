@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Messi con normas HTML5 y estilos Bootstrap 4">
+    <meta name="author" content="">
+    <title>Blog de Messi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: rgb(0, 0, 0);
+            color: pink;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos de la barra de navegación */
+        .navbar-dark {
+            background-color: black;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: pink;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: rgb(218, 91, 112);
+        }
+
+        /* Estilos del título del artículo */
+        .fw-bolder {
+            color: pink;
+        }
+
+        /* Estilos del texto del artículo */
+        .text-muted {
+            color: pink;
+        }
+
+        /* Estilos de los enlaces */
+        a {
+            color: pink;
+            text-decoration: none;
+        }
+        a:hover {
+            color: lightpink;
+            text-decoration: underline;
+        }
+
+        /* Estilos del contenido de la página */
+        .container {
+            margin-top: 50px;
+        }
+
+        /* Estilos para la imagen de vista previa */
+        .img-fluid {
+            border: 5px solid pink;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para el cuadro de noticias */
+        .card {
+            background-color: pink;
+            color: black;
+        }
+        .card-header {
+            background-color: lightpink;
+            color: black;
+        }
+
+        /* Estilos para el widget de calendario */
+        .table-bordered th,
+        .table-bordered td {
+            border-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Barra de navegación responsiva-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Blog de Messi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Contenido de la página -->
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Contenido del artículo -->
+                <article>
+                    <!-- Encabezado del artículo -->
+                    <header class="mb-4">
+                        <!-- Título del artículo -->
+                        <h1 class="fw-bolder mb-1">Lionel Messi: La Leyenda del Fútbol</h1>
+                        <!-- Metadatos del artículo -->
+                        <div class="text-muted fst-italic mb-2">Publicado el 31 de agosto de 2023 por Blog de Messi</div>
+                    </header>
+                    <!-- Imagen de vista previa del artículo -->
+                    <figure class="mb-4"><img class="img-fluid rounded" src="messi.jpeg" alt="Lionel Messi" /></figure>
+<!-- Contenido del artículo -->
+<section class="mb-5">
+
+                        <p class="fs-5 mb-4">Lionel Messi, a menudo considerado uno de los mejores futbolistas de todos los tiempos, ha dejado una marca indeleble en el mundo del deporte. Nacido el 24 de junio de 1987 en Rosario, Argentina, el viaje de Messi desde una joven promesa hasta convertirse en un ícono del fútbol es verdaderamente extraordinario.</p>
+                        <p class="fs-5 mb-4">Sus habilidades de dribbling incomparables, su visión increíble en el campo y su capacidad para anotar goles asombrosos han cautivado a los fanáticos del fútbol en todo el mundo. La destacada consistencia de Messi y su habilidad para rendir bajo presión le han valido numerosos premios, incluidos varios premios FIFA Balón de Oro.</p>
+                        <p class="fs-5 mb-4">A lo largo de su carrera, Messi ha exhibido su talento con el FC Barcelona, donde se convirtió en el máximo goleador de todos los tiempos del club. Su asociación con el club condujo a numerosas victorias en competiciones nacionales e internacionales. En 2021, Messi realizó un emotivo cambio al Paris Saint-Germain, marcando un nuevo capítulo en su ilustre carrera.</p>
+                        <h2 class="fw-bolder mb-4 mt-5">Continuando el Legado</h2>
+                        <p class="fs-5 mb-4">Mientras Lionel Messi sigue honrando el campo de fútbol, los fanáticos esperan con ansias cada uno de sus movimientos. Su dedicación, humildad y pasión por el juego sirven como inspiración para atletas aspirantes de todo el mundo. El Blog de Messi está dedicado a celebrar la vida y los logros de esta leyenda del fútbol.</p>
+                    </section>
+                </article>
+            </div>
+            <div class="col-lg-4">
+                <!-- Cuadro de Noticias -->
+                <div class="card mb-4">
+                    <div class="card-header">Noticias</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Messi lidera la tabla de goleadores de la liga</li>
+                        <li class="list-group-item">Victoria aplastante de Messi en el último partido</li>
+                        <li class="list-group-item">Declaraciones recientes de Messi sobre su carrera</li>
+                    </ul>
+                </div>
+                <!-- Widget de Calendario -->
+                <div class="card">
+                    <div class="card-header">Calendario - Septiembre 2023</div>
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>D</th>
+                                    <th>L</th>
+                                    <th>M</th>
+                                    <th>M</th>
+                                    <th>J</th>
+                                    <th>V</th>
+                                    <th>S</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                </tr>
+                                <!-- Más filas del calendario... -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opcional, si necesitas funcionalidad interactiva) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js" integrity="sha384-pzjw6f+ua5d5fPrtJ+Orn/O5A6m4JwAWqHpz6e+zZu6kkfGILh9Aj4Dw996talD6" crossorigin="anonymous"></script>
+</body>
+</html>
